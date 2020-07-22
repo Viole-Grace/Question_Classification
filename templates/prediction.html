@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Prediction Results</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="static/pred_style.css">
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <h1 class="w3-xlarge">Classification Prediction</h1>
+  <h1>Machine Learing WebApp</h1>
+  
+</header>
+
+<!-- Form Input -->
+<div class="w3-center">
+	<form action="{{ url_for('predict')}}" method="post"> 
+        <label for="question">Question:</label> 
+        <input type="text" name="question" id="question"> 
+        <input type="submit" value="Submit"> 
+    </form> 
+
+    <h2><br>{{prediction_string}}<br></h2>
+    <br>{{category}}<br>
+    {{topic}}
+    
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+
+  <p><a href='index.html' class="w3-hover-text-green">Go back to Index Page</a></p>
+  <p>Built by <a href="https://www.github.com/Viole-Grace" target="_blank" class="w3-hover-text-green">Aamir Syed</a></p>
+
+</footer>
+
+</body>
+</html>
