@@ -1,0 +1,1 @@
+{'ENTY': 1, 'ABBR': 2, 'DESC': 0, 'LOC': 5, 'HUM': 3, 'NUM': 4}
