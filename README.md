@@ -1,4 +1,7 @@
 # Question_Classification
+
+### Code Repository for my Medium Article - [End to End Deployment of A Machine Learning Model using Flask](https://medium.com/@aamirsyed2801/end-to-end-deployment-of-a-machine-learning-model-using-flask-dc456abcc6da?sk=d088bd95a3f6aee037f7d7264f012489)
+
 A simple TF-IDF based Classifier for the Question Classification Dataset
 
 ### clone this repository:
